@@ -6,11 +6,11 @@ class User:
         self.firstName = fN
         self.lastName = lN
         self.balance = 0
-        #self.age = age
+
 
     def make_deposit( self, balance ):
         self.balance += balance
-        #return self
+   
 
 # 2. Add a make_withdrawal method to the User class
     def withdrawal(self, amount):
@@ -20,7 +20,7 @@ class User:
             print( "We cannot process your withdrawal." )
             print( f"You currently have {self.balance}." )
             print( f"And you are trying to withdraw {amount}." )
-        #return self
+
 
 # 3. Add a display_user_balance method to the User class
     def display_user_balance( self ):
